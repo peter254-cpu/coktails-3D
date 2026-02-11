@@ -13,12 +13,12 @@ const Cocktails = () => {
             }
         })
         parallaxTimeline
-        .from('#c-left-leaf', {
-            x: -100, y: 100
-        })
-        .from('#c-right-leaf', {
-            x: 100, y: 100
-        })
+            .from('#c-left-leaf', {
+                x: -100, y: 100
+            })
+            .from('#c-right-leaf', {
+                x: 100, y: 100
+            })
     }
     )
     return (
@@ -27,7 +27,6 @@ const Cocktails = () => {
             <img src="/images/cocktail-right-leaf.png" alt="cocktail-right-leaf.png" id="c-right-leaf" />
 
             <div className="list">
-
                 <div className="popular">
                     <h2>
                         Most Popular Cocktails:
@@ -48,7 +47,6 @@ const Cocktails = () => {
                         ))}
                     </ul>
                 </div>
-
                 <div className="loved">
                     <h2>
                         Most Loved Cocktails:
